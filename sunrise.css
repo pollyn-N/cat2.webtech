@@ -1,0 +1,142 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+    background-image:url('pexels-chanwalrus-958545.jpg'); /* Add your food image here */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+/* Add a semi-transparent overlay to improve text readability */
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7); /* White overlay with 70% opacity */
+    z-index: -1; /* Places the overlay behind the content */
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: rgba(255, 243, 230, 0.9); /* Semi-transparent background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #d35400; /* Warm orange color */
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Menu Section */
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center-align all text inside the section */
+}
+
+h2 {
+    color: #e67e22; /* Warm orange color */
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #d35400; /* Warm orange color */
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center; /* Center tables horizontally */
+    flex-wrap: wrap; /* Allow tables to wrap to the next line if needed */
+    gap: 20px; /* Add spacing between tables */
+}
+
+.menu-category {
+    text-align: left; /* Align table content to the left */
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 243, 230, 0.9); /* Same as Contact Us section */
+    width: 30%; /* Set a fixed width for each table container */
+    box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
+table {
+    width: 100%; /* Tables take up 100% of their container */
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: rgba(255, 243, 230, 0.9); /* Same as Contact Us section */
+    border-radius: 10px;
+    overflow: hidden; /* Ensures rounded corners for the table */
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #e67e22; /* Warm orange color */
+    color: white;
+}
+
+tr:hover {
+    background-color: rgba(245, 245, 245, 0.9); /* Light hover effect */
+}
+
+/* Footer (Contact Section) */
+footer {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    padding: 20px;
+    background-color: rgba(255, 243, 230, 0.9); /* Semi-transparent background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container {
+    text-align: center; /* Center text inside the container */
+}
+
+footer h2 {
+    color: #d35400; /* Warm orange color */
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #d35400; /* Warm orange color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
