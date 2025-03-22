@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 20px;
     color: #333;
-    background-image:url('pexels-chanwalrus-958545.jpg'); /* Add your food image here */
+    background-image: url('pexels-chanwalrus-958545.jpg'); /* Add your food image here */
     background-size: cover; /* Ensures the image covers the entire background */
     background-position: center; /* Centers the image */
     background-attachment: fixed; /* Keeps the background fixed while scrolling */
@@ -18,7 +18,7 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(255, 255, 255, 0.7); /* White overlay with 70% opacity */
+    background-color: rgba(255, 255, 255, 0.3); /* Reduced opacity to 30% */
     z-index: -1; /* Places the overlay behind the content */
 }
 
@@ -27,7 +27,7 @@ header {
     text-align: center;
     margin-bottom: 30px;
     padding: 20px;
-    background-color: rgba(255, 243, 230, 0.9); /* Semi-transparent background */
+    background-color: rgba(255, 243, 230, 0.8); /* Slightly increased transparency */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -47,7 +47,7 @@ header p {
 section {
     margin-bottom: 30px;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    background-color: rgba(255, 255, 255, 0.85); /* Increased transparency */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center; /* Center-align all text inside the section */
@@ -76,7 +76,7 @@ h3 {
     text-align: left; /* Align table content to the left */
     padding: 20px;
     border-radius: 10px;
-    background-color: rgba(255, 243, 230, 0.9); /* Same as Contact Us section */
+    background-color: rgba(255, 243, 230, 0.8); /* Increased transparency */
     width: 30%; /* Set a fixed width for each table container */
     box-sizing: border-box; /* Ensures padding is included in the width */
 }
@@ -85,7 +85,7 @@ table {
     width: 100%; /* Tables take up 100% of their container */
     border-collapse: collapse;
     margin-bottom: 20px;
-    background-color: rgba(255, 243, 230, 0.9); /* Same as Contact Us section */
+    background-color: rgba(255, 243, 230, 0.8); /* Increased transparency */
     border-radius: 10px;
     overflow: hidden; /* Ensures rounded corners for the table */
 }
@@ -111,7 +111,7 @@ footer {
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
     padding: 20px;
-    background-color: rgba(255, 243, 230, 0.9); /* Semi-transparent background */
+    background-color: rgba(255, 243, 230, 0.8); /* Increased transparency */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -140,3 +140,4 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
